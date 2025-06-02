@@ -1,0 +1,11 @@
+Model Information:
+* title:	MOTO
+* source:	https://sketchfab.com/3d-models/moto-230929231f8e44db920c9be0bc55456c
+* author:	Gianmarco.Caruso1 (https://sketchfab.com/Gianmarco.Caruso1)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "MOTO" (https://sketchfab.com/3d-models/moto-230929231f8e44db920c9be0bc55456c) by Gianmarco.Caruso1 (https://sketchfab.com/Gianmarco.Caruso1) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

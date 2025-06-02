@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../AddVehicleStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <title>Motorcycle Form</title>
+</head>
+<body>
+    <a href="../listVehicules.html" class="list-button">List Vehicle</a>
+    <div class="container animate__animated animate__backInLeft">
+        <div class="sidebar">
+            <div class="nav-icon active-icon"><i 
+                class="fa-solid fa-motorcycle"></i></div>
+        </div>
+
+        <div class="Placa-conteiner">
+            <img class="carplac" src="../image/placaMoto.png" alt="imagen no encontrada">
+        </div>
+        
+        <div class="form-vehicule animate__animated animate__fadeIn">
+            <div class="form-inner">
+                <h2 class="section-title">Register</h2>
+                <form id="motoForm">
+                <label for="name">Name:</label>
+                <input type="text" placeholder="Example: Rodrigo" id="name" name="name" required>
+
+                <label for="lastname">Last name:</label>
+                <input type="text" placeholder="Example: Cañarte" id="lastname" name="lastname" required>
+
+                <label for="ID">Id:</label>
+                <input type="text" placeholder="Example: 1359374832" name="ID" id="ID" required>
+
+                <label for="licenseplates">License plates:</label>
+                <input type="text" placeholder="Example: AB-123C" name="licenseplates" id="licenseplates" required>
+                
+                <button class="save-button" type="submit">Saved</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="../validationsFormsmoto.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  user-select: none;
+}
+body{
+    background-color: black;
+    background-image: linear-gradient(#000000ce, #000000f5), url(image/FondoLogin.jpg);
+    background-size: cover;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    color: black;
+}
+
+@keyframes slideInFromRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.container{
+    position: absolute;
+    width: 30%;
+    background: rgba(255, 0, 0, 0.425);
+    padding: 20px;
+    display: grid;
+    place-items: center;
+    border-radius: 0px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.39);
+    animation: slideInFromRight 0.5s ease-out forwards;
+}
+label{
+    color: black;
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+input, textarea, button {
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+    border: 1px solid #b3a2a25b;
+    background-color: #ebebeb5e;
+    border-radius: 5px;
+}
+.save-button {
+    width: 30px; 
+    height: 30px;
+    border: none; 
+    border-radius: 50%; 
+    background-color: red;
+    cursor: pointer; 
+}
